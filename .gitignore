@@ -1,0 +1,20 @@
+# Secrets and machine-specific state - never commit
+.ssh/
+.gnupg/
+*.pem
+*.key
+.netrc
+.env
+.env.*
+config/gh/
+config/opencode/node_modules/
+
+# Omarchy-generated symlinks (recreated by `omarchy theme set`)
+config/nvim/lua/plugins/theme.lua
+
+# Editor / OS cruft
+.DS_Store
+*.swp
+*~
+*.bak
+*.bak.*

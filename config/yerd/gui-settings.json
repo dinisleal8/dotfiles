@@ -1,0 +1,13 @@
+{
+  "daemon_autostart": true,
+  "gui_minimized": true,
+  "gui_maximized": false,
+  "onboarding_complete": true,
+  "gui_login_migrated": false,
+  "daemon_registered_version": null,
+  "daemon_version_conflict": null,
+  "tray_icon_variant": "auto",
+  "title_bar_style": "auto",
+  "preferred_ide": null,
+  "site_ide_overrides": {}
+}

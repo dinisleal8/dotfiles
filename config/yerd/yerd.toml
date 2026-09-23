@@ -1,0 +1,41 @@
+version = 23
+tld = "test"
+dns_port = 1053
+update_channel = "stable"
+symlink_protection = true
+mcp_enabled = false
+lan_enabled = false
+lan_setup_port = 7073
+linked = []
+
+[ports]
+http = 80
+https = 443
+fallback_http = 8080
+fallback_https = 8443
+
+[php]
+default = "8.4"
+
+[php.settings]
+display_errors = "On"
+error_reporting = "E_ALL"
+max_execution_time = "60"
+max_file_uploads = "20"
+max_input_time = "60"
+memory_limit = "512M"
+post_max_size = "100M"
+upload_max_filesize = "100M"
+
+[parked]
+paths = ["/home/leal/Laravel"]
+
+[[overrides]]
+path = "/home/leal/Laravel/Upbiz-React"
+php = "8.4"
+secure = true
+
+[services.mysql]
+version = "9.7.1"
+port = 3306
+enabled = true

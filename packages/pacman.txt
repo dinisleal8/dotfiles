@@ -1,0 +1,43 @@
+# Official repo packages for Laravel development and daily tooling.
+# Installed with: sudo pacman -S --needed
+# Omarchy already provides the desktop/WM stack; this list is the dev layer.
+
+# PHP / Laravel local development
+composer
+bun
+docker
+docker-buildx
+docker-compose
+mariadb-libs
+postgresql-libs
+php-gd
+php-sqlite
+
+# Runtimes & version managers
+mise-bin
+
+# Editors, git and terminal tooling
+neovim
+tmux
+git
+github-cli
+lazygit
+lazydocker
+ripgrep
+fd
+fzf
+jq
+bat
+eza
+zoxide
+starship
+tree-sitter-cli
+tldr
+
+# Shell & utilities
+unzip
+whois
+socat
+inetutils
+libvips
+imagemagick
