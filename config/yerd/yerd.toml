@@ -35,7 +35,20 @@ path = "/home/leal/Laravel/Upbiz-React"
 php = "8.4"
 secure = true
 
+[[overrides]]
+path = "/home/leal/Laravel/boapesca"
+php = "8.4"
+
 [services.mysql]
 version = "9.7.1"
 port = 3306
 enabled = true
+
+[services."reverb:boapesca"]
+port = 8081
+site = "boapesca"
+enabled = true
+
+[[proxy_rules.parked."/home/leal/Laravel/boapesca"]]
+prefix = "/app"
+target = "http://127.0.0.1:8081"

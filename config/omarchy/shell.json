@@ -32,10 +32,10 @@
       ],
       "right": [
         {
-          "id": "omarchy.tray"
+          "id": "omarchy.agents"
         },
         {
-          "id": "omarchy.agents"
+          "id": "omarchy.tray"
         },
         {
           "id": "omarchy.bluetooth"
@@ -55,7 +55,7 @@
       ]
     },
     "position": "top",
-    "transparent": true
+    "transparent": false
   },
   "idle": {
     "lock": 300,
