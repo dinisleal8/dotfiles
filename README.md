@@ -74,3 +74,4 @@ Switch with **Alt+Shift**, or run `scripts/switch-keyboard-layout.sh`.
   lock-screen updates automatically.
 # dotfiles
 # dotfiles
+# dotfiles
