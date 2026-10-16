@@ -72,3 +72,4 @@ Switch with **Alt+Shift**, or run `scripts/switch-keyboard-layout.sh`.
   Swap it by replacing that file.
 - Because the lock plugin is a user clone, it will not receive upstream Omarchy
   lock-screen updates automatically.
+# dotfiles
